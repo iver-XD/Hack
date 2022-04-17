@@ -1,5 +1,7 @@
-for e in z + "\n":
-      sys.stdout.write(e)
-      sys.stdout.flush()
-      time.sleep(0.05)
-os.system("clear")
+clear
+pkg install python
+clear
+pkg install git
+clear
+pkg install Bash
+clear
