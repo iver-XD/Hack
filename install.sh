@@ -11,4 +11,13 @@ clear
 figlet LOADING
 pip2 install requests
 clear
-figlet FANKY
+figlet-
+#############################################################
+# Nama : Fanky Aditya 
+# File : hack.py 
+# Penulis : Fanky 
+# Github : 
+#Facebook :                                                 #
+# Situs web :                                               #
+# Versi Python : 0.3                                        #
+#############################################################
